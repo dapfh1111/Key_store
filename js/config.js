@@ -1,2 +1,4 @@
-const SUPABASE_URL = "COLE_AQUI_A_URL_DO_SEU_SUPABASE";
-const SUPABASE_ANON_KEY = "COLE_AQUI_A_ANON_KEY_DO_SEU_SUPABASE";
+const SUPABASE_URL = "https://xxxxxxxx.supabase.co";
+
+const SUPABASE_ANON_KEY =
+    "eyJhbGciOi...";
