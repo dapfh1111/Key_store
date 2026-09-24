@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Minha conta - Key Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="container nav-content">
+
+        <a href="index.html" class="logo">
+            KEY<span>STORE</span>
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="products.html">
+                Produtos
+            </a>
+
+            <button
+                id="logoutButton"
+                class="btn btn-secondary"
+            >
+                Sair
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Minha conta</h2>
+
+            <p>
+                Dados da sua conta.
+            </p>
+
+        </div>
+
+
+        <div class="account-card">
+
+            <div class="account-row">
+
+                <div class="account-label">
+                    E-mail
+                </div>
+
+                <div
+                    id="userEmail"
+                    class="account-value"
+                >
+                    Carregando...
+                </div>
+
+            </div>
+
+
+            <div class="account-row">
+
+                <div class="account-label">
+                    Status
+                </div>
+
+                <div class="account-value">
+                    Conta ativa
+                </div>
+
+            </div>
+
+
+            <div class="account-row">
+
+                <div class="account-label">
+                    Keys
+                </div>
+
+                <div class="account-value">
+                    Nenhuma Key disponível.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="js/config.js"></script>
+<script src="js/supabase.js"></script>
+<script src="js/auth.js"></script>
+
+</body>
+</html>
