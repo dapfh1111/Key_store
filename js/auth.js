@@ -71,7 +71,7 @@ if (registerForm) {
 
                         emailRedirectTo:
                             window.location.origin +
-                            "/login.html"
+                            "/Key_store/login.html"
 
                     }
 
